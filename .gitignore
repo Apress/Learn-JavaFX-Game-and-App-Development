@@ -1,0 +1,33 @@
+*.class
+
+# Package Files #
+*.war
+*.ear
+META-INF/
+
+# Eclipse #
+.classpath
+.project
+.settings/
+/bin
+
+# IDEA #
+.idea/
+*.iml
+/out
+
+# Maven #
+dependency-reduced-pom.xml
+*/target
+
+# logs #
+*.log
+logs/
+
+# FXGL #
+/saves
+profiles/
+system/
+
+# Space Invaders #
+*.dat

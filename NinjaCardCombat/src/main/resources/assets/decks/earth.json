@@ -1,0 +1,42 @@
+{
+  "cards" : [ {
+    "name" : "Orc Warrior",
+    "description" : "A basic attack grunt",
+    "imageName" : "orc_warrior.png",
+    "rarity" : "COMMON",
+    "type" : "WARRIOR",
+    "element" : "EARTH",
+    "skills" : [ ],
+    "level" : 1,
+    "hp" : 10,
+    "sp" : 3,
+    "atk" : 4,
+    "def" : 2
+  }, {
+    "name" : "Artemis",
+    "description" : "None",
+    "imageName" : "merman.png",
+    "rarity" : "LEGENDARY",
+    "type" : "MAGE",
+    "element" : "EARTH",
+    "skills" : [ ],
+    "level" : 1,
+    "hp" : 65,
+    "sp" : 97,
+    "atk" : 55,
+    "def" : 48
+  }, {
+    "name" : "Gargoyle",
+    "description" : "None",
+    "imageName" : "gargoyle.png",
+    "rarity" : "RARE",
+    "type" : "MAGE",
+    "element" : "EARTH",
+    "skills" : [ ],
+    "level" : 1,
+    "hp" : 33,
+    "sp" : 44,
+    "atk" : 5,
+    "def" : 30
+  } ]
+}

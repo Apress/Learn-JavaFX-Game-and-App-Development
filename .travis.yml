@@ -1,0 +1,29 @@
+os:
+  - linux
+  - osx
+
+language: java
+cache:
+  directories:
+  - "~/.m2"
+jdk:
+- openjdk11
+
+before_install:
+- echo "before_install NOOP"
+install:
+- echo "install NOOP"
+script:
+- cd Drop
+- mvn clean compile
+- mvn javafx:jlink
+after_success:
+- chmod +x ../.travis/upload-build.sh
+- ../.travis/upload-build.sh
+notifications:
+  email:
+    recipients:
+    - almaslvl@gmail.com
+    on_success: change
+    on_failure: always
+    on_start: never

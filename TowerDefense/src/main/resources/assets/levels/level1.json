@@ -1,0 +1,27 @@
+{
+  "name": "Hello world",
+  "map": "td1.tmx",
+  "waves": [
+    {
+      "index": 1,
+      "enemy": "enemy1.json",
+      "amount": 35,
+      "way": "way1",
+      "reward": 250
+    }
+  ],
+  "quests": [
+    {
+      "desc": "Build 3 towers",
+      "varName": "numTowers",
+      "varValue": 3,
+      "reward": 100
+    },
+    {
+      "desc": "Build 6 towers",
+      "varName": "numTowers",
+      "varValue": 6,
+      "reward": 120
+    }
+  ]
+}
